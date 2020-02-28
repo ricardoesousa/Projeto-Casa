@@ -1,0 +1,41 @@
+@model IEnumerable<GerenciadorDeEventos.Models.Local>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1><B>Locais</B></h1>
+
+<div class="container text-right">
+    <a class="btn btn-info " asp-action="Create">Criar Novo Local</a>
+    <p></p>
+</div>
+<table class="container table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.NomeLocal)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EnderecoLocal)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NomeLocal)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EnderecoLocal)
+            </td>
+            <td class="text-right">
+                <a class="btn btn-warning" asp-action="Edit" asp-route-id="@item.Id">Alterar</a> |
+                <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id">Excluir</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

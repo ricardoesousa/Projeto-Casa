@@ -1,0 +1,32 @@
+@model GerenciadorDeEventos.Models.Evento
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1><b>@Html.DisplayFor(model => model.NomeEvento)</b></h1>
+
+
+    <h4>Data: @Html.DisplayFor(model => model.DataEvento)</h4>
+    <h4>Local: @Html.DisplayFor(model => model.LocalEvento.NomeLocal)</h4>
+      <h4>Gênero: @Html.DisplayFor(model => model.GeneroEvento)</h4>
+    <hr />
+
+    <div class="row container">
+        <div class="col-sm-4">
+            <img src="@Html.DisplayFor(model => model.ImagemEvento)" class="img-fluid" width="600" height="600">
+        </div>
+
+        <div class="col-sm-8">
+            <h5><b>@Html.DisplayNameFor(model => model.DescricaoEvento)
+            </b></h5>
+            <h6>@Html.DisplayFor(model => model.DescricaoEvento)
+            </h6>     
+        </div>
+
+    </div>
+
+<hr />
+           
+        
+
