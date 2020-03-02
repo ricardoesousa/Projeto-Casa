@@ -18,7 +18,7 @@ namespace GerenciadorDeEventos.Models
       public DateTime DataEvento { get; set; }
       [Display(Name = "Preço")]
       [Required(ErrorMessage = "Preenchimento obrigatório")]
-      [DisplayFormat(DataFormatString = "R$ {0:N2}")]
+      [DisplayFormat(DataFormatString = "{0:C2}")]
       public decimal VlrIngresso { get; set; }
       [Display(Name = "Gênero")]
       [Required(ErrorMessage = "Preenchimento obrigatório")]
