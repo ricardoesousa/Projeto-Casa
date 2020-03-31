@@ -8687,19 +8687,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ROES\\.nuget\\packages\\": {}
+    "C:\\Users\\ricar\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ROES\\Desktop\\Projeto-Casa\\GerenciadorDeEventos\\GerenciadorDeEventos.csproj",
+      "projectUniqueName": "C:\\Users\\ricar\\OneDrive\\Área de Trabalho\\projeto_casa\\GerenciadorDeEventos\\GerenciadorDeEventos.csproj",
       "projectName": "GerenciadorDeEventos",
-      "projectPath": "C:\\Users\\ROES\\Desktop\\Projeto-Casa\\GerenciadorDeEventos\\GerenciadorDeEventos.csproj",
-      "packagesPath": "C:\\Users\\ROES\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ROES\\Desktop\\Projeto-Casa\\GerenciadorDeEventos\\obj\\",
+      "projectPath": "C:\\Users\\ricar\\OneDrive\\Área de Trabalho\\projeto_casa\\GerenciadorDeEventos\\GerenciadorDeEventos.csproj",
+      "packagesPath": "C:\\Users\\ricar\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ricar\\OneDrive\\Área de Trabalho\\projeto_casa\\GerenciadorDeEventos\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ROES\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\ricar\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
